@@ -9,6 +9,29 @@
 
     <!-- QR library -->
     <script src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+
+    <script>
+const qrCode = new QRCodeStyling({
+  width: 300,
+  height: 300,
+  data: "https://example.com",   // replace with your QR text or URL
+  image: "logo.png",             // your logo file
+  imageOptions: {
+    hideBackgroundDots: true,    // removes the white background behind logo
+    imageSize: 0.2,              // adjust logo size (20% of QR)
+    margin: 0                     // ensures no extra white margin
+  },
+  qrOptions: {
+    errorCorrectionLevel: "H"    // keeps QR scannable even with logo
+  }
+});
+
+// Clear container and append QR
+document.getElementById("qrcode").innerHTML = "";
+qrCode.append(document.getElementById("qrcode"));
+</script>
+
+    
 </head>
 <body>
 
@@ -39,5 +62,6 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
 
