@@ -13,17 +13,11 @@ header {
 
 
 .card {
-  background: #fff1f1;          /* restores white box */
-  max-width: 420px;             /* original-style width */
-  width: 100%;
-  margin: 40px auto;            /* center with space */
-  padding: 20px;                /* inner spacing */
-  border-radius: 10px;          /* smooth corners */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-
-  display: flex;
-  flex-direction: column;
-  gap: 12px;                    /* space between items */
+    background: white;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 input {
@@ -71,6 +65,7 @@ button {
     display: none;
     color: #0d6efd;
 }
+
 
 
 
