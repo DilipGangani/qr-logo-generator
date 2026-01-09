@@ -11,13 +11,6 @@ header {
     padding: 20px;
 }
 
-.cardo {
-    background: white;
-    max-width: 400px;
-    margin: 30px auto;
-    padding: 20px;
-    border-radius: 8px;
-}
 
 .card {
   background: #ffffff;          /* restores white box */
@@ -78,4 +71,5 @@ button {
     display: none;
     color: #0d6efd;
 }
+
 
