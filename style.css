@@ -13,7 +13,7 @@ header {
 
 
 .card {
-  background: #ffffff;          /* restores white box */
+  background: #ff1111;          /* restores white box */
   max-width: 420px;             /* original-style width */
   width: 100%;
   margin: 40px auto;            /* center with space */
@@ -71,5 +71,6 @@ button {
     display: none;
     color: #0d6efd;
 }
+
 
 
